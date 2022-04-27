@@ -1,0 +1,156 @@
+:root {
+    --header-bg-color: #222222;
+    --brand-bg-color: #F1E4E6;
+    --head-title-border-color: #f16d7f;
+    --last_word-color: #f16d7f;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Bold.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    background: var(--header-bg-color);
+    padding: 18px;
+    height: 75px;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    padding-left: 41px;
+}
+
+/* .headContainer {
+    border: 1px solid #fff;
+} */
+
+.user {
+    margin-left: 26px;
+    margin-right: 33px;
+}
+
+.brandContent {
+    display: flex;
+}
+
+.brandTop {
+    min-height: 300px;
+    position: relative;
+}
+
+.man-top {
+    width: 100%;
+}
+
+.leftBrandContainer,
+.rightBrandContainer {
+    background-color: var(--brand-bg-color);
+    width: 50%;
+}
+
+.rightBrandContainer {
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftBrandTextBorder {
+    border-left: 12px solid var(--head-title-border-color);
+    padding-left: 15px;
+    height: 92px;
+}
+
+.leftBrandText {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 14px;
+}
+
+.leftBrandFirstLineText {
+    font-size: 40px;
+    line-height: 23px;
+}
+
+.leftBrandSecondLineText {
+    font-size: 25px;
+    line-height: 44px;
+}
+
+.colorText {
+    color: var(--last_word-color);
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 260px 180px;
+    gap: 30px;
+    margin: 65px 130px;
+}
+
+.catTitleBottom {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--last_word-color);
+}
+
+.catTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.categories div {
+    position: relative;
+}
+
+.categoriesImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.accesories {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/* .boxWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    border: 1px solid #000;
+    background-color: rgb(230, 194, 140);
+}
+
+.box4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+} */
