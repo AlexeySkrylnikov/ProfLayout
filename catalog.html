@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Catalog</title>
+</head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Index</title>
-    </head>
+<body>
     <div class="header">
         <div class="content">
             <div class="headContainer">
@@ -20,85 +20,30 @@
                 <img src="img/menu.png" alt="menu">
                 <img class="user" src="img/user.png" alt="user">
                 <img src="img/cart.png" alt="cart">
+                </span>
             </div>
         </div>
     </div>
-    <div class="brandTop">
-        <div class="brandContent">
-            <div class="leftBrandContainer">
-                <img class="man-top" src="img/header-man.png" alt="header-man">
-            </div>
-            <div class="rightBrandContainer">
-                <div class="leftBrandTextBorder">
-                    <div class="leftBrandText leftBrandFirstLineText">THE BRAND</div>
-                    <div class="leftBrandText leftBrandSecondLineText">OF LUXERIOUS <span
-                            class="colorText">FASHION</span>
-                    </div>
-                </div>
-            </div>
+    <div class="newArrivals">
+        <div class="newArrivalSection"><span class="newArrivalLeftTitle">new arrivals</span>
+        </div>
+        <div class="newArrivalSection"><span class="newArrivalsRightBreadCrumbs">home / men / <span
+                    class="activeBreadCrumbsPage">new arrivals</span></span></div>
+    </div>
+    <div class="catalogFilterMenu">
+        <div class="filterSection">
+            FILTER<img src="img/filter_ico.png" alt="" class="icoFilter">
+        </div>
+        <div class="sizePriseSection">
+            <span class="sizePrice">TRENDING NOW</span><img src="img/arrow_ico.png" alt="" class="icoFilter">
+            <span class="sizePrice">SIZE</span><img src="img/arrow_ico.png" alt="" class="icoFilter">
+            <span class="sizePrice">PRICE</span><img src="img/arrow_ico.png" alt="" class="icoFilter">
         </div>
     </div>
-    <div class="categories">
-        <div>
-            <img class="categoriesImg" src="img/forWomen.jpg" alt="forWomen">
-            <div class="catTitle">
-                <div>
-                    30% OFF
-                </div>
-                <div class="catTitleBottom">
-                    FOR WOMEN
-                </div>
-            </div>
-        </div>
-        <div>
-            <img class="categoriesImg" src="img/forMen.jpg" alt="forMen">
-            <div class="catTitle">
-                <div>
-                    HOT DEAL
-                </div>
-                <div class="catTitleBottom">
-                    FOR MEN
-                </div>
-            </div>
-        </div>
-        <div>
-            <img class="categoriesImg" src="img/forKids.jpg" alt="forKids">
-            <div class="catTitle">
-                <div>
-                    NEW ARRIVALS
-                </div>
-                <div class="catTitleBottom">
-                    FOR KIDS
-                </div>
-            </div>
-        </div>
-        <div class="accesories">
-            <img class="categoriesImg" src="img/accesories.jpg" alt="accesories">
-            <div class="catTitle">
-                <div>
-                    LUXIROUS & TRENDY
-                </div>
-                <div class="catTitleBottom">
-                    ACESSORIES
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- <div class="wrapper">
-    <div class="box1">One</div>
-    <div class="box2">Two</div>
-    <div class="box3">Three</div>
-    <div class="box4">Four</div>
-</div>-->
-    <div class="futered">
-        <div class="futeredUpTitle">Fetured Items</div>
-        <div class="futeredBottomTitle">Shop for items based on what we featured in this week</div>
-
-    </div>
-    <div class="wrapper">
+    <div class="wrapper catalog">
         <div class="wrapperCart">
             <div>
-                <img class="wrapperImg" src="img/fi_1.jpg" alt="fiture_1">
+                <img class="wrapperImg" src="img/catalog/Image1.jpg" alt="">
             </div>
             <div class="wrapperTitle">
                 ELLERY X M'O CAPSULE
@@ -113,7 +58,7 @@
         </div>
         <div class="wrapperCart">
             <div>
-                <img class="wrapperImg" src="img/fi_2.jpg" alt="fiture_2">
+                <img class="wrapperImg" src="img/catalog/Image2.jpg" alt="">
                 <div class="wrapperTitle">
                     ELLERY X M'O CAPSULE
                 </div>
@@ -129,7 +74,7 @@
         </div>
         <div class="wrapperCart">
             <div>
-                <img class="wrapperImg" src="img/fi_3.jpg" alt="fiture_3">
+                <img class="wrapperImg" src="img/catalog/Image3.jpg" alt="">
                 <div class="wrapperTitle">
                     ELLERY X M'O CAPSULE
                 </div>
@@ -145,7 +90,7 @@
         </div>
         <div class="wrapperCart">
             <div>
-                <img class="wrapperImg" src="img/fi_4.jpg" alt="fiture_4">
+                <img class="wrapperImg" src="img/catalog/Image4.jpg" alt="">
                 <div class="wrapperTitle">
                     ELLERY X M'O CAPSULE
                 </div>
@@ -161,7 +106,7 @@
         </div>
         <div class="wrapperCart">
             <div>
-                <img class="wrapperImg" src="img/fi_5.jpg" alt="fiture_5">
+                <img class="wrapperImg" src="img/catalog/Image5.jpg" alt="">
                 <div class="wrapperTitle">
                     ELLERY X M'O CAPSULE
                 </div>
@@ -177,7 +122,55 @@
         </div>
         <div class="wrapperCart">
             <div>
-                <img class="wrapperImg" src="img/fi_6.jpg" alt="fiture_6">
+                <img class="wrapperImg" src="img/catalog/Image6.jpg" alt="">
+                <div class="wrapperTitle">
+                    ELLERY X M'O CAPSULE
+                </div>
+                <div class="wrapperDesc">Known for her sculptural takes on traditional tailoring, Australian arbiter of
+                    cool
+                    Kym Ellery teams up with
+                    Moda Operandi.
+                </div>
+                <div class="wrapperPrice">
+                    $52.00
+                </div>
+            </div>
+        </div>
+        <div class="wrapperCart">
+            <div>
+                <img class="wrapperImg" src="img/catalog/Image7.jpg" alt="">
+                <div class="wrapperTitle">
+                    ELLERY X M'O CAPSULE
+                </div>
+                <div class="wrapperDesc">Known for her sculptural takes on traditional tailoring, Australian arbiter of
+                    cool
+                    Kym Ellery teams up with
+                    Moda Operandi.
+                </div>
+                <div class="wrapperPrice">
+                    $52.00
+                </div>
+            </div>
+        </div>
+        <div class="wrapperCart">
+            <div>
+                <img class="wrapperImg" src="img/catalog/Image8.jpg" alt="">
+                <div class="wrapperTitle">
+                    ELLERY X M'O CAPSULE
+                </div>
+                <div class="wrapperDesc">Known for her sculptural takes on traditional tailoring, Australian arbiter of
+                    cool
+                    Kym Ellery teams up with
+                    Moda Operandi.
+                </div>
+                <div class="wrapperPrice">
+                    $52.00
+                </div>
+            </div>
+        </div>
+        <div class="wrapperCart">
+            <div>
+                <img class="wrapperImg" src="img/catalog/Image9.jpg" alt="">
                 <div class="wrapperTitle">
                     ELLERY X M'O CAPSULE
                 </div>
@@ -192,8 +185,14 @@
             </div>
         </div>
     </div>
-    <div class="futered">
-        <a class="browse_all" href="#">Browse All Product</a>
+    <div class="pagination">
+        <div class="pagNav">
+            <img src="img/catalog/arrow_left.png" alt="" class="leftArrow">
+        </div>
+        <div class="pagNav"><span class="activePage">1</span><span class="pageNumbers"> 2 3 4 5 6...20</span></div>
+        <div class="pagNav">
+            <img src="img/catalog/arrow_right.png" alt="" class="rightArrow">
+        </div>
     </div>
     <div class="footer">
         <div class="upFooter">
